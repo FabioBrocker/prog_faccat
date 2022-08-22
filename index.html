@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Efetua Registro</title>
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>Efetuar Registros</legend>
+
+        <form action="/action_page.php">
+            <label for="nome"> Nome:</label>
+            <label for="nasc">Data de Nascimento:</label><br>
+            <input type="text" id="nome" name="nome">
+
+            <input type="date" id="birthday" name="birthday"><br><br>
+
+            <label for="Email">E-mail:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" name="senha"><br><br>
+
+
+            <label for="sexo">Sexo:</label><br>
+            <select id="sexo" name="sexo">
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+            </select><br><br>
+
+            <label for="tel_res">Telefone Residencial:</label><br>
+            <input type="tel" id="Tel_res" name="Tel_res" placeholder="51-9999-9999"
+                pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" required><br><br>
+
+            <label for="celular">Celular:</label><br>
+            <input type="tel" id="Tel_res" name="Tel_res" placeholder="51-99999-9999"
+                pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" required><br><br>
+
+            <label for="fumante">Fumante:</label><br>
+            <select id="fumante" name="fumante">
+                <option value="Sim">Sim</option>
+                <option value="Nao">Não</option>
+            </select><br><br>
+
+            <label for="municipio">Municipio de origem:</label><br>
+            <input type="text" id="municipio" municipio="municipio"><br>
+            <br>
+
+
+            <input type="submit" value="Cancelar">
+            <input type="submit" value="Gravar">
+
+
+        </form>
+        
+    </fieldset>
+
+
+    
+        <fieldset>
+
+
+            <legend>Dados</legend>
+
+            <label for="nome"> Nome:</label>
+            <label for="nasc">Data de Nascimento:</label><br>
+
+            <label for="Email">E-mail:</label><br>
+
+            <label for="senha">Senha:</label><br>
+
+            <label for="sexo">Sexo:</label><br>
+
+            <label for="tel_res">Telefone Residencial:</label><br>
+
+            <label for="celular">Celular:</label><br>
+
+            <label for="fumante">Fumante:</label><br>
+
+            <label for="municipio">Municipio de origem:</label><br>
+
+
+            <input type="submit" value="Limpar">
+
+
+        </fieldset>
+
+
+</body>
+
+</html>
